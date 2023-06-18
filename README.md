@@ -1,8 +1,8 @@
 # Travelling Salesman Problem RiscV Solution
 
-This project is an implementation of the Traveling Salesman Problem (TSP) solver using RISC-V assembly language.
+This project uses RISC-V assembly language to implement the Traveling Salesman Problem (TSP) solver.
 
-## Main ideia
+## Main idea
 
 - Random generation of N points on a map
 - Drawing lines connecting all pairs of points
@@ -11,15 +11,15 @@ This project is an implementation of the Traveling Salesman Problem (TSP) solver
 
 ## Complexity
 
-The complexity of this project code is O(N!), where N is the number of points. This means that as the number of points increases, the execution time of the program will grow exponentially.
+The complexity of this project code is O(NumberOfPoints!). This means that as the number of points increases, the execution time of the program will grow exponentially.
 
 ## How to use
 
 - To run it you will need [RARS](https://github.com/TheThirdOne/rars)
 - Open the file "tsp.asm"
-- On Rars, select tools, open bitmap display and connect it to program
+- On Rars, select tools, open bitmap display, and connect it to the program
 - Run code and visualize the execution
-- To change the numbe of points, change variable "N" on top of "tsp.asm" file.
+- To change the number of points, change variable "N" on top of "tsp.asm" file.
 
 ## Example of execution
 
