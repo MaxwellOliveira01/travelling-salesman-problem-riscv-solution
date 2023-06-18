@@ -20,3 +20,10 @@ The complexity of this project code is O(N!), where N is the number of points. T
 - On Rars, select tools, open bitmap display and connect it to program
 - Run code and visualize the execution
 - To change the numbe of points, change variable "N" on top of "tsp.asm" file.
+
+## Example of execution
+
+<p float="left" align="middle">
+  <img src="/img/5-points.png" width="300" />
+  <img src="/img/6-points.png" width="300" />
+</p>
